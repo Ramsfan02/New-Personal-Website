@@ -18,6 +18,7 @@
 </div>
 
 <h2>My work Throughout the year</h2>
+
 <div class="slideshow-container">
 <div class="mySlides">
     <div class="numbertext">1/7</div>
@@ -68,10 +69,10 @@
 </div>
  
 </div>
-<br>
+
 
 <div style="text-align:center">
-    <span class="dot"></span>
+    <span class="dot" onclick=""></span>
     <span class="dot"></span>
     <span class="dot"></span>
     <span class="dot"></span>
@@ -80,8 +81,7 @@
     <span class="dot"></span>
 </div> 
 
-   <div class="footer">
-    <?php include 'Footer.php' ?>
-</div> 
+   
+     
 </body>
 </html>

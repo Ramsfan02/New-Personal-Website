@@ -7,6 +7,16 @@
     <title>About</title>
 </head>
 <body>
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <?php include 'Header.php' ?>
+</div>
+
+<div id="main">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+</div>
+
 <div class="parallax"></div>
 
 <div style="height:1000px;background-color:blue;font-size:36px">
@@ -21,7 +31,15 @@
     
     I also got another achievement in my JROTC, this year I was awarded the Veterans Of Foreign Wars Award for outstanding achievements and exceptional leadership ability </p>
     
+    <img src="images/20190308_070454.jpg">
+    <p>A picture of myself</p>
+    
     
 </div>
+
+<div class="footer">
+    <?php include 'Footer.php' ?>
+</div>
+
 </body>
 </html>

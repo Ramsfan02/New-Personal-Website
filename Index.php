@@ -17,5 +17,9 @@
 </div>
 
 <p>Hello my name is Brandon Salsberry and this is my personal website</p>
+
+<div class="footer">
+    <?php include 'Footer.php' ?>
+</div>
 </body>
 </html>
